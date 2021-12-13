@@ -1,7 +1,7 @@
 FROM docker.mirror.hashicorp.services/alpine:latest
 LABEL maintainer="Tige Phillips tigelane@mac.com - Mostly Hashicorp code from the Packer team."
 
-ENV PACKER_VERSION=1.7.7
+ENV PACKER_VERSION=1.7.8
 ENV PACKER_SHA256SUM=8513c3679d51141c39da3d95c691fcfc4b2ccc20e96ac5244b58b98899d6fe54
 
 RUN apk add --update git bash wget openssl
